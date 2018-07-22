@@ -10,14 +10,24 @@ body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #868e96;
-  font-family: 'Atma';
+  
   /* font-size: 12px; */
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   body {
     padding-top: 0;
     padding-left: 17rem; } }
+
+@media screen and (max-width: 768px) {
+  .img-profile {
+    width: 10em;
+    height: 8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 h1,
 h2,
@@ -45,21 +55,22 @@ h2 {
 
 .list-social-icons a {
   color: #495057; }
-  .list-social-icons a:hover {
-    color: #BD5D38; }
-  .list-social-icons a .fa-lg {
-    font-size: 1.75rem; }
+.list-social-icons a:hover {
+  color: #BD5D38; }
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
+
   .list-icons .list-inline-item i:hover {
-    color: #BD5D38; }
+  color: #BD5D38; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase; }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #sideNav {
     text-align: center;
     position: fixed;
@@ -73,10 +84,10 @@ h2 {
       display: flex;
       margin: auto auto 0;
       padding: 0.5rem; }
-      #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2); }
     #sideNav .navbar-collapse {
       display: flex;
       align-items: flex-start;
@@ -92,7 +103,7 @@ h2 {
             display: block; } }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #BD5D38;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important; }
   section.resume-section .resume-item .resume-date {
@@ -104,7 +115,7 @@ section.resume-section {
     section.resume-section .resume-item .resume-date {
       min-width: 18rem; } }
 
-@media (min-width: 992px) {
+@media (min-width: 768x) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
@@ -113,7 +124,8 @@ section.resume-section {
   background-color: #292523 !important; }
 
 .text-primary {
-  color: #343a40 !important; }
+  color: #BD5D38 !important;
+  }
 
 a {
   color: #BD5D38; }
